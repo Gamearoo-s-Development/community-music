@@ -21,6 +21,7 @@ module.exports.registerPlayerEvents = async (player, client) => {
     });
 
     player.events.on("playerStart", async (queue, track) => {
+        clearInterval(queue.currentInt);
         var now = new Date;
         now.setSeconds(0)
         now.setHours(0)
@@ -68,6 +69,8 @@ module.exports.registerPlayerEvents = async (player, client) => {
     }, 1000 * hmsToSecondsOnly(track.duration))
 
     });
+
+    player.events.on("")
 
     
 
