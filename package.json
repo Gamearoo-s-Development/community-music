@@ -1,0 +1,27 @@
+{
+  "name": "community-music",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discord-player/extractor": "^4.1.0",
+    "@discordjs/builders": "^1.4.0",
+    "@discordjs/opus": "^0.9.0",
+    "@discordjs/rest": "^1.5.0",
+    "@discordjs/voice": "^0.14.0",
+    "@distube/ytdl-core": "^4.11.7",
+    "canvacord": "^5.4.8",
+    "discord-api-types": "^0.37.35",
+    "discord-helper.js": "^4.0.1",
+    "discord-player": "^6.0.0",
+    "discord.js": "^14.7.1",
+    "moment": "^2.29.4",
+    "ram-api.js": "^12.1.11"
+  }
+}
