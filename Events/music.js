@@ -68,7 +68,7 @@ module.exports.registerPlayerEvents = async (player, client) => {
 
     });
 
-    player.events.on("")
+   
 
     
 
