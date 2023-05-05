@@ -64,9 +64,7 @@ module.exports.registerPlayerEvents = async (player, client) => {
         msg.edit({embeds: [embed]})
     }, 8000)
 
-    setTimeout(() => {
-        clearInterval(queue.currentInt)
-    }, 1000 * hmsToSecondsOnly(track.duration))
+    
 
     });
 
